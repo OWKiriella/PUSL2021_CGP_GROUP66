@@ -1,0 +1,49 @@
+name: grocery_store
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  firebase_core: ^2.27.1
+  carousel_slider: ^4.2.1
+  provider: ^6.1.2
+  image_picker: ^1.0.7
+  firebase_storage: ^11.6.10
+  flutter_paypal_checkout: ^1.0.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+   android: true
+   ios: true
+   image_path: "assets/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/first.png
+  - assets/h1.png
+  - assets/h2.png
+  - assets/h3.png
+  - assets/h4.png
+  - assets/c1.png
+  - assets/c2.png
+  - assets/c3.png
+  - assets/c4.png
+  - assets/c5.png
+  - assets/01.jpg
+  - assets/icon.jpg
+  - assets/logo.jpg
+
+ 
